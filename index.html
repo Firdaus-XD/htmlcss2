@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexaPay - Premium Digital Wallet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <div class="logo">
+                <span class="logo-icon">💎</span>
+                <span>NexaPay</span>
+            </div>
+            <div class="nav-links">
+                <a href="#">Features</a>
+                <a href="#">Premium</a>
+                <a href="#">Security</a>
+                <a href="#">Support</a>
+                <a href="#" class="signup-btn">Join Now</a>
+            </div>
+            <div class="mobile-menu-btn"><i class="fas fa-bars"></i></div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1><span class="gradient-text">The Future</span> of Digital Payments</h1>
+                    <h2>Where <span class="highlight">Innovation</span> Meets <span class="highlight">Convenience</span></h2>
+                    <p>Experience the next generation of financial freedom with our cutting-edge digital wallet technology designed for the modern world.</p>
+                    <div class="cta-container">
+                        <a href="#" class="cta-btn">Get Started <i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="demo-btn"><i class="fas fa-play"></i> Watch Demo</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="premium-card">
+                        <div class="card-header">
+                            <div class="card-chip">
+                                <i class="fas fa-microchip"></i>
+                                <div class="chip-glow"></div>
+                            </div>
+                            <div class="card-provider">
+                                <i class="fab fa-cc-visa"></i>
+                            </div>
+                        </div>
+                        <div class="card-number">1139 1112 2025 4242</div>
+                        <div class="card-footer">
+                            <div class="card-holder">FIRKAIZEN</div>
+                            <div class="card-expiry">12/25</div>
+                        </div>
+                        <div class="card-glow"></div>
+                        <div class="card-pattern"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Mobile menu toggle functionality
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
